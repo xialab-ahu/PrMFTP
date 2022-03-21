@@ -20,7 +20,7 @@ We propose a multi-label classification model, named MLTP, to predict peptide fu
 
 | FILE NAME           | DESCRIPTION                                                  |
 | :------------------ | :----------------------------------------------------------- |
-| main.py             | the main file of MLBP predictor (include data reading, encoding, and data partitioning) |
+| main.py             | the main file of MLTP predictor (include data reading, encoding, and data partitioning) |
 | train.py            | train model |
 | model.py            | model construction |
 | test.py             | test model result |
