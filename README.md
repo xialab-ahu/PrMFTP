@@ -46,13 +46,13 @@ We propose a multi-label classification model, named MLTP, to predict peptide fu
 - Download `MLTP`to your computer
 
   ```bash
-  git clone https://github.com/xialab-ahu/MLTP.git
+  git clone https://github.com/xialab-ahu/PrMFTP.git
   ```
 
 - open the dir and install `requirement.txt` with `pip`
 
   ```
-  cd MLTP
+  cd PrMFTP
   pip install -r requirement.txt
   ```
 
