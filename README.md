@@ -20,14 +20,14 @@ We propose a multi-label classification model, named PrMFTP, to predict peptide 
 
 | FILE NAME           | DESCRIPTION                                                  |
 | :------------------ | :----------------------------------------------------------- |
-| main.py             | the main file of MLTP predictor (include data reading, encoding, and data partitioning) |
+| main.py             | the main file of PrMFTP predictor (include data reading, encoding, and data partitioning) |
 | train.py            | train model |
 | model.py            | model construction |
 | test.py             | test model result |
 | evaluation.py       | evaluation metrics (for evaluating prediction results) |
 | dataset             | data         |
-| model               | models of MLTP           |
-| result               | result of MLTP           |
+| model               | models of PrMFTP           |
+| result               | result of PrMFTP           |
 
 
 ## Installation
