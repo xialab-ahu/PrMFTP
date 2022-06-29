@@ -1,4 +1,4 @@
-# MLTP
+# PrMFTP
 multi-label therapeutic peptides prediction based on multi-head self-attention mechanism and class weights optimization
 
 
@@ -9,14 +9,14 @@ The peptide drugs has wide applications, such as lowering blood glucose levels, 
 
 Results: 
 
-We propose a multi-label classification model, named MLTP, to predict peptide function. In the field of functional peptide prediction, compared with state-of-the-art single-label predictor, MLTP can predict multiple functions including AAP, anti-angiogenic peptide、ABP, anti-bacterial peptide、 ACP, Anti-cancer peptide、 ACVP, Anti-coronavirus peptide、 ADP, Anti-diabetic peptide、 AEP, Anti-endotoxin peptide、 AFP, Anti-fungal peptide、 Anti-HIV peptide, AHIVP、 AHP, Anti-hypertensive peptide、 AIP, Anti-inflammatory peptide、 AMRSAP, Anti-MRSA peptide、 APP, Anti-parasitic peptide、 ATP, Anti-tubercular peptide、 AVP, Anti-viral peptide、 BBP, Blood-brain Barrier peptide、 BIP, Biofilm-inhibitory peptide、 CPP, Cell-penetrating peptide、 DPPIP, Dipeptidyl Peptidase IV peptide、 QSP, Quorum-sensing peptide、 SBP, Surface-binding peptide、 THP, Tumor-homing peptide simultaneously. Meanwhile, our model takes the raw sequence vector as input to replace biological features encoding from peptide sequences, extracts convolution and sequence features from the raw sequence, and combines with recurrent neural network to extract global features of sequences, than the multi head self attention mechanism is used to optimize the extracted features, so as to provide the prediction sequence of the model, and the class weight is used to solve the problem of data imbalance. The validation experiments conducted on the dataset show that MLTP has superior prediction performance. 
+We propose a multi-label classification model, named PrMFTP, to predict peptide function. In the field of functional peptide prediction, compared with state-of-the-art single-label predictor, PrMFTP can predict multiple functions including AAP, anti-angiogenic peptide、ABP, anti-bacterial peptide、 ACP, Anti-cancer peptide、 ACVP, Anti-coronavirus peptide、 ADP, Anti-diabetic peptide、 AEP, Anti-endotoxin peptide、 AFP, Anti-fungal peptide、 Anti-HIV peptide, AHIVP、 AHP, Anti-hypertensive peptide、 AIP, Anti-inflammatory peptide、 AMRSAP, Anti-MRSA peptide、 APP, Anti-parasitic peptide、 ATP, Anti-tubercular peptide、 AVP, Anti-viral peptide、 BBP, Blood-brain Barrier peptide、 BIP, Biofilm-inhibitory peptide、 CPP, Cell-penetrating peptide、 DPPIP, Dipeptidyl Peptidase IV peptide、 QSP, Quorum-sensing peptide、 SBP, Surface-binding peptide、 THP, Tumor-homing peptide simultaneously. Meanwhile, our model takes the raw sequence vector as input to replace biological features encoding from peptide sequences, extracts convolution and sequence features from the raw sequence, and combines with recurrent neural network to extract global features of sequences, than the multi head self attention mechanism is used to optimize the extracted features, so as to provide the prediction sequence of the model, and the class weight is used to solve the problem of data imbalance. The validation experiments conducted on the dataset show that PrMFTP has superior prediction performance. 
 
 ![draft](./figures/MLTP.jpg)
 
 
 ## Related Files
 
-#### MLBP
+#### PrMFTP
 
 | FILE NAME           | DESCRIPTION                                                  |
 | :------------------ | :----------------------------------------------------------- |
@@ -57,7 +57,7 @@ We propose a multi-label classification model, named MLTP, to predict peptide fu
   ```
 
 
-## Run MLTP on a new test fasta file
+## Run PrMFTP on a new test fasta file
 ```shell
 python predictor.py --file test.fasta --out_path result
 ```
